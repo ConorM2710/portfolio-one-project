@@ -1,3 +1,31 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+body {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.logo {
+    font-size: 180%;
+    margin-left: 40px;
+    float: left;
+    margin-top: 10px;
+}
+
+#main-menu{
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: 300;
+    line-height:40px;
+}
+#main-menu li {
+    float: right;
+    margin-right: 40px;
+}
+
