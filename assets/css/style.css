@@ -16,16 +16,40 @@ body {
     margin-left: 40px;
     float: left;
     margin-top: 10px;
+    color:red;
 }
 
 #main-menu{
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-size: 100%;
     font-weight: 300;
-    line-height:40px;
+    color: red;
 }
 #main-menu li {
     float: right;
     margin-right: 40px;
 }
 
+#main-menu, #logo {
+    line-height: 40px;
+}
+
+#main-menu a:hover {
+    border-radius: 1px solid #ff0000;
+}
+
+.active {
+    border-radius: 1px solid #ff0000;
+}
+
+#image-ext {
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-image {
+    height: 550px;
+    width: 100%;
+    background: url('../css/images/hermes-rivera-qbf59TU077Q-unsplash.jpg') no-repeat center center;
+}
